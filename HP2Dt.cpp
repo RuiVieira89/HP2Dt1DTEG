@@ -768,7 +768,8 @@ void writing(double t, std::string outTimeStamp){
     myfile.open (app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_T2Dt.csv");
     
     if(!myfile.is_open()){ 
-        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_T2Dt.csv";
+        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + outTimeStamp + 
+		"\\" + n.substr(0, n.size()-5) + "_T2Dt.csv";
     }
 
     for (int i = 0; i < Nx + 1; i++){
