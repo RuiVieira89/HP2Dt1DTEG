@@ -784,10 +784,12 @@ void writing(double t, std::string outTimeStamp){
 	std::ofstream myfile_1; 
 
 
-    myfile_1.open (app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_u_TEG_N.csv");
+    myfile_1.open (app_root_dir + "results\\results_" + outTimeStamp + "\\" + 
+		   n.substr(0, n.size()-5) + "_u_TEG_N.csv");
     
     if(!myfile_1.is_open()){ 
-        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_u_TEG_N.csv";
+        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + 
+		outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_u_TEG_N.csv";
     }
     for (int i = 0; i < Nx + 1; i++){
         for (int j = 0; j < Nx_TEG + 1; j++){
@@ -801,10 +803,12 @@ void writing(double t, std::string outTimeStamp){
     /* ====================== _u_TEG_P.csv ====================== */
 	std::ofstream myfile_2; 
 
-    myfile_2.open (app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_u_TEG_P.csv");
+    myfile_2.open (app_root_dir + "results\\results_" + outTimeStamp + "\\" + 
+		   n.substr(0, n.size()-5) + "_u_TEG_P.csv");
     
     if(!myfile_2.is_open()){ 
-        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_u_TEG_P.csv";
+        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + 
+		outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_u_TEG_P.csv";
     }
 
     for (int i = 0; i < Nx+1; i++){
@@ -820,10 +824,12 @@ void writing(double t, std::string outTimeStamp){
 	std::ofstream myfile_3; 
 
 
-    myfile_3.open (app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_uLoo.csv");
+    myfile_3.open (app_root_dir + "results\\results_" + outTimeStamp + 
+		   "\\" + n.substr(0, n.size()-5) + "_uLoo.csv");
     
     if(!myfile_3.is_open()){ 
-        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_uLoo.csv";
+        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + 
+		outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_uLoo.csv";
     }
 
     for (int i = 0; i < Nx+1; i++){
@@ -836,10 +842,12 @@ void writing(double t, std::string outTimeStamp){
 	std::ofstream myfile_4; 
 
 
-    myfile_4.open (app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_uLcc.csv");
+    myfile_4.open (app_root_dir + "results\\results_" + outTimeStamp + 
+		   "\\" + n.substr(0, n.size()-5) + "_uLcc.csv");
     
     if(!myfile_4.is_open()){ 
-        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_uLcc.csv";
+        std::cout << std::endl << "Error writing: " + app_root_dir + 
+		"results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_uLcc.csv";
     }
 
     for (int i = 0; i < Nx+1; i++){
@@ -852,10 +860,12 @@ void writing(double t, std::string outTimeStamp){
 	std::ofstream myfile_5; 
 
 
-    myfile_5.open (app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_Q_exc.csv");
+    myfile_5.open (app_root_dir + "results\\results_" + outTimeStamp + 
+		   "\\" + n.substr(0, n.size()-5) + "_Q_exc.csv");
     
     if(!myfile_5.is_open()){ 
-        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_Q_exc.csv";
+        std::cout << std::endl << "Error writing: " + app_root_dir + 
+		"results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_Q_exc.csv";
     }
     
     for (int i = 0; i < Nx+1; i++){
@@ -868,10 +878,12 @@ void writing(double t, std::string outTimeStamp){
 	std::ofstream myfile_6; 
 
 
-    myfile_6.open (app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_Qoo.csv");
+    myfile_6.open (app_root_dir + "results\\results_" + outTimeStamp + 
+		   "\\" + n.substr(0, n.size()-5) + "_Qoo.csv");
     
     if(!myfile_6.is_open()){ 
-        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_Qoo.csv";
+        std::cout << std::endl << "Error writing: " + app_root_dir + 
+		"results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_Qoo.csv";
     }
     
     for (int i = 0; i < Nx+1; i++){
@@ -884,10 +896,12 @@ void writing(double t, std::string outTimeStamp){
 	std::ofstream myfile_7; 
 
 
-    myfile_7.open (app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_Qcc.csv");
+    myfile_7.open (app_root_dir + "results\\results_" + outTimeStamp + 
+		   "\\" + n.substr(0, n.size()-5) + "_Qcc.csv");
     
     if(!myfile_7.is_open()){ 
-        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_Qcc.csv";
+        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + 
+		outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_Qcc.csv";
     }
     
     for (int i = 0; i < Nx+1; i++){
@@ -900,10 +914,12 @@ void writing(double t, std::string outTimeStamp){
 	std::ofstream myfile_8; 
 
 
-    myfile_8.open (app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_I.csv");
+    myfile_8.open (app_root_dir + "results\\results_" + outTimeStamp + 
+		   "\\" + n.substr(0, n.size()-5) + "_I.csv");
     
     if(!myfile_8.is_open()){ 
-        std::cout << std::endl << "Error writing: " + app_root_dir + "results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_I.csv";
+        std::cout << std::endl << "Error writing: " + app_root_dir + 
+		"results\\results_" + outTimeStamp + "\\" + n.substr(0, n.size()-5) + "_I.csv";
     }
     
     myfile_8 << I_current;
