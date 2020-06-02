@@ -1,5 +1,3 @@
-// g++ -I C:\dev\THERMOSS\HP2Dt\cpp\src\eigen HP2Dt.cpp -o HP2Dt.exe
-// cd "c:\dev\THERMOSS\HP2Dt\cpp\src\" && g++ HP2Dt.cpp -o HP2Dt && "c:\dev\THERMOSS\HP2Dt\cpp\src\"HP2Dt
 
 #include <iostream>
 #include <chrono>
