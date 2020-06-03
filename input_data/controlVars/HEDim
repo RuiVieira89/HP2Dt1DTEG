@@ -1,0 +1,8 @@
+s 0.003
+h 0.0189
+tick 0.0005
+l 0.0531
+number_of_channels 100
+number_of_offsets 2
+L_HP 0.05
+T_TEG_MAX 503.15

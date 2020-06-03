@@ -1,0 +1,10 @@
+m_cooler 0.02079
+Nc 70
+channel_widt 0.001
+fin_widt 0.001
+fin_heigt 0.01
+channel_length 0.13
+lateral_length 0.14
+Metal_tick 0.03
+number_of_coolers 1
+Twater_in 293
