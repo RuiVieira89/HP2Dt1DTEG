@@ -7,6 +7,7 @@ The Eigen::BiCGSTAB<Eigen::SparseMatrix<double> > method was used to solve the e
 In the input_data folder there are all the variables that are relevant for the simulation. 
 In the cycle folder there's the driving cycle used for this simulation, a WLTP template is provided. The engine conditions necessary to fulfil the driving cycle are predicted using a steady-state engine model map, from which the exhaust mass flow and temperature are extracted. The file cycle.csv is an example of the thermal output of a driving cycle.
 
+In the file: app_root_dir; should be the path to where the code is in your machine.
 In the folder input_data\controlVars there are the main variables the can be modified.
 
 # coolerDim - Cooler variables
