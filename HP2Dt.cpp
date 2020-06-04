@@ -13,9 +13,9 @@
 #include <process.h> 
 #include <stdio.h> 
 
-#include <C:\dev\THERMOSS\HP2Dt\cpp\src\eigen\eigen\Sparse>
-#include <C:\dev\THERMOSS\HP2Dt\cpp\src\eigen\eigen\Dense>
-#include <C:\dev\THERMOSS\HP2Dt\cpp\src\eigen\Eigen\IterativeLinearSolvers>
+#include <path\to\eigen\eigen\Sparse>
+#include <path\to\eigen\eigen\Dense>
+#include <path\to\eigen\Eigen\IterativeLinearSolvers>
 
 auto start = std::chrono::system_clock::now();
 auto timeElapsed1_old = std::chrono::system_clock::now();
